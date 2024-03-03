@@ -11,7 +11,7 @@ The prisma set up is based on https://prismaio.notion.site/Prisma-Vercel-Edge-Fu
 
 # Prerequites
 
-- ~~MySQL server named prisma-http-protocol-error~~
+- ~~Local MySQL server with schema named prisma-http-protocol-error. Accessed with a user named root without a password (or whatever login, but make sure to update the .env and docker-compose.yml files)~~
 - ~~node~~
 - ~~docker~~
 
