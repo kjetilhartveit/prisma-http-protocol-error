@@ -1,0 +1,13 @@
+version: "3.8"
+name: prisma-http-protocol-error
+services:
+  planetscale_proxy:
+    image: ghcr.io/mattrobenolt/ps-http-sim:latest
+    command:
+      [
+        "-listen-port=8080",
+        "-mysql-dbname=prisma-http-protocol-error",
+        "-mysql-addr=host.docker.internal",
+      ]
+    ports:
+      - "8080:8080"
