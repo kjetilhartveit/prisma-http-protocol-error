@@ -1,6 +1,7 @@
 {
   "name": "prisma-http-protocol-error",
   "version": "1.0.0",
+  "type": "module",
   "scripts": {
     "start": "node index.js",
     "postinstall": "prisma generate"

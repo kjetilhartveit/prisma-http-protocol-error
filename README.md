@@ -6,14 +6,14 @@ The prisma set up is based on https://prismaio.notion.site/Prisma-Vercel-Edge-Fu
 
 1. Run `npm install`
 2. Run `npx prisma db push`
-3. ~~Start docker with `docker compose up`~~
-4. ~~Run `node index.js`~~
+3. Start docker with `docker compose up`
+4. Run `node index.js`
 
 # Prerequites
 
-- ~~Local MySQL server with schema named prisma-http-protocol-error. Accessed with a user named root without a password (or whatever login, but make sure to update the .env and docker-compose.yml files)~~
-- ~~node~~
-- ~~docker~~
+- Local MySQL server with schema named `prisma-http-protocol-error`. Accessed with a user named `prisma-http-user` with a password like `ABC1234` (or whatever credentials, but make sure to update the .env and docker-compose.yml files)
+- node
+- docker
 
 # Error
 
